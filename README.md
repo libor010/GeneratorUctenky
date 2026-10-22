@@ -41,5 +41,5 @@ JAK SPUSTIT A VYTVOŘIT APLIKACI (JAR)
 2. JAK APLIKACI SPUSTIT:
 - Otevři terminál tam, kde máš uložený hotový .jar soubor.
 - Napiš příkaz:
-  java -jar GenerovaniUctenky.jar
+  java -jar GeneratorUctenka.jar
 - Stiskni Enter. Program se rozběhne, načte nastavení obchodu, vyzve tě k zadání položek, spočítá celkovou cenu a vytiskne účtenku.
