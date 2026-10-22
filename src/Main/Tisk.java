@@ -21,19 +21,20 @@ public class Tisk {
         // Inicializace objektu BufferedWriter pro zapisovani do souboru
         try (BufferedWriter bw = new BufferedWriter(new FileWriter("uctenka.txt"))){
 
+            bw.write(timestamp);
 
             String tiskZahajen = "\n\n--- TISK ÚČTENKY ZAHÁJEN ---";
             System.out.println(tiskZahajen.trim());
-            bw.append(tiskZahajen);
+            bw.write(tiskZahajen);
 
             // Prace s uctenkou
             System.out.print(textUctenky.trim());
-            bw.append(textUctenky);
+            bw.write(textUctenky);
 
 
             String tiskUkoncen = "--- TISK ÚČTENKY DOKONČEN ---\n";
             System.out.println(tiskUkoncen.trim());
-            bw.append(tiskUkoncen);
+            bw.write(tiskUkoncen);
 
         } catch (IOException e){
             e.printStackTrace();

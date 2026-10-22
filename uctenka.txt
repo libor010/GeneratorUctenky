@@ -1,3 +1,4 @@
+Čas tisku: 22.10.2026 19:25:31
 
 
 --- TISK ÚČTENKY ZAHÁJEN ---      Bufet Jizni Mesto
@@ -6,9 +7,9 @@
        DIČ: CZ61384399
        Obsluha: Damian
 ******************************
-jablko                  200,00
+eee                     100,00
 ..............................
-CELKEM (CZK):           200,00
+CELKEM (CZK):           100,00
 ******************************
         Na shledanou!
 --- TISK ÚČTENKY DOKONČEN ---
