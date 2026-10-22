@@ -18,6 +18,9 @@ public class UzivatelskyVstup {
     // Středník tu záměrně chybí, protože se používá jako oddělovač "Název;Cena".
     private static final Pattern PLATNY_NAZEV = Pattern.compile("^[\\p{L}\\p{N} .,'()/%-]+$");
 
+    // Název musí obsahovat alespoň jedno písmeno (i s diakritikou)
+    private static final Pattern OBSAHUJE_PISMENO = Pattern.compile(".*\\p{L}.*");
+
     // Cena: 1-7 číslic, volitelně desetinná tečka a 1-2 desetinná místa (čárka se předtím převede na tečku)
     private static final Pattern PLATNA_CENA = Pattern.compile("^\\d{1,7}(\\.\\d{1,2})?$");
 
@@ -110,6 +113,9 @@ public class UzivatelskyVstup {
         }
         if (!PLATNY_NAZEV.matcher(nazev).matches()) {
             return "název obsahuje nepovolené znaky.";
+        }
+        if (!OBSAHUJE_PISMENO.matcher(nazev).matches()) {
+            return "název musí obsahovat alespoň jedno písmeno.";
         }
         return null;
     }
