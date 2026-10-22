@@ -5,10 +5,10 @@ Konzolová aplikace v jazyce Java pro interaktivní zadávání nákupu, zpracov
 ----------------------------------------------------------------------------------------
 Autoři:
 
-Sladek,
+Sládek,
 Adamec,
-Moravek,
-Kratky
+Morávek,
+Krátky
 
 -----------------------------------------------------------------------------------------
 
