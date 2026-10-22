@@ -23,7 +23,7 @@ public class Tisk {
 
             bw.write(timestamp);
 
-            String tiskZahajen = "\n\n--- TISK ÚČTENKY ZAHÁJEN ---";
+            String tiskZahajen = "\n\n--- TISK ÚČTENKY ZAHÁJEN ---/ \n\n";
             System.out.println(tiskZahajen.trim());
             bw.write(tiskZahajen);
 
@@ -32,7 +32,7 @@ public class Tisk {
             bw.write(textUctenky);
 
 
-            String tiskUkoncen = "--- TISK ÚČTENKY DOKONČEN ---\n";
+            String tiskUkoncen = "\n\n--- TISK ÚČTENKY DOKONČEN ---\n";
             System.out.println(tiskUkoncen.trim());
             bw.write(tiskUkoncen);
 
