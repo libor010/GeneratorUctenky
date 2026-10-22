@@ -12,7 +12,7 @@ public class UzivatelskyVstup {
     private static final String KONEC = "konec";
     private static final int MAX_DELKA_NAZVU = 100;
     private static final int MAX_POLOZEK = 100;
-    private static final BigDecimal MAX_CENA = new BigDecimal("1000000");
+    private static final BigDecimal MAX_CENA = new BigDecimal("10000000000000000");
 
     // Povolené znaky v názvu: písmena (i s diakritikou), číslice, mezera a základní interpunkce.
     // Středník tu záměrně chybí, protože se používá jako oddělovač "Název;Cena".
