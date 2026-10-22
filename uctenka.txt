@@ -1,15 +1,39 @@
-Čas tisku: 22.10.2026 19:25:31
+Čas tisku: 22.10.2026 19:31:46
 
 
---- TISK ÚČTENKY ZAHÁJEN ---      Bufet Jizni Mesto
+--- TISK ÚČTENKY ZAHÁJEN ---/ 
+
+      Bufet Jizni Mesto
     Ekonomicka 957, Praha
         IČO: 61384399
        DIČ: CZ61384399
        Obsluha: Damian
 ******************************
-eee                     100,00
+auto                     30,00
 ..............................
-CELKEM (CZK):           100,00
+CELKEM (CZK):            30,00
 ******************************
         Na shledanou!
+
+
+--- TISK ÚČTENKY DOKONČEN ---
+Čas tisku: 22.10.2026 19:33:23
+
+
+--- TISK ÚČTENKY ZAHÁJEN ---/ 
+
+      Bufet Jizni Mesto
+    Ekonomicka 957, Praha
+        IČO: 61384399
+       DIČ: CZ61384399
+       Obsluha: Damian
+******************************
+auto                     30,00
+..............................
+CELKEM (CZK):            30,00
+******************************
+        Na shledanou!
+
+
+
 --- TISK ÚČTENKY DOKONČEN ---
