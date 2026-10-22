@@ -21,7 +21,7 @@ public class Tisk {
         // Inicializace objektu BufferedWriter pro zapisovani do souboru
         try (BufferedWriter bw = new BufferedWriter(new FileWriter("uctenka.txt", true))){
 
-            bw.write(timestamp);
+            bw.write("\n\n" + timestamp);
 
             String tiskZahajen = "\n\n--- TISK ÚČTENKY ZAHÁJEN ---";
             System.out.println(tiskZahajen.trim());
