@@ -1,0 +1,14 @@
+
+
+--- TISK ÚČTENKY ZAHÁJEN ---      Bufet Jizni Mesto
+    Ekonomicka 957, Praha
+        IČO: 61384399
+       DIČ: CZ61384399
+       Obsluha: Damian
+******************************
+jablko                  200,00
+..............................
+CELKEM (CZK):           200,00
+******************************
+        Na shledanou!
+--- TISK ÚČTENKY DOKONČEN ---
