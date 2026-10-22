@@ -29,48 +29,17 @@ Aplikace se skládá z následujících hlavních tříd (v balíčku Main):
 
 ----------------------------------------------------------------------------------------
 
-Jak sestavit a vytvořit další verzi
------------------------------------
-
-Varianta A: Pomocí Mavenu (Doporučeno)
---------------------------------------
-
-  Pokud máte projekt nastavený jako Maven projekt s konfiguračním souborem pom.xml:
-
-  Čisté sestavení a zabalení do JAR souboru:
-
-  mvn clean package
-  
-  -----------------
-
-  Spuštění aplikace:
-    Výsledný spustitelný balíček se vytvoří ve složce target/. Aplikaci spustíte příkazem:
-
-    java -jar target/generator-uctenek-1.0.0.jar
-
-
-Varianta B: Ruční postup (bez Mavenu)
+JAK SPUSTIT A VYTVOŘIT APLIKACI (JAR)
 -------------------------------------
 
-  Pokud kompilujete a spouštíte projekt ručně přes příkazový řádek (CLI):
+1. JAK VYROBIT .JAR SOUBOR (MAVEN):
+- Otevři terminál ve složce s projektem.
+- Napiš a odesl příkaz:
+  mvn clean package
+- Ve složce "target" se ti vygeneruje hotový .jar soubor.
 
-  Vytvoření výstupní složky pro přeložené třídy (bin):
-
-  mkdir bin
-
-
-  Kompilace zdrojových kódů:
-  --------------------------
-    Přejděte do kořenové složky zdrojových kódů (např. src) a zkompilujte soubory:
-
-    javac -d ../bin Main/*.java
-
-
-  Kopírování konfiguračního souboru:
-  ----------------------------------
-    Zajistěte, aby byl soubor obchod.properties dostupný ve složce zdrojů / classpath (např. v bin/Main/resources/obchod.properties podle toho, jak ho načítá getClassLoader().getResourceAsStream()).
-
-  Spuštění aplikace:
-  ------------------
-
-    java -cp bin Main.Main
+2. JAK APLIKACI SPUSTIT:
+- Otevři terminál tam, kde máš uložený hotový .jar soubor.
+- Napiš příkaz:
+  java -jar GeneratorUctenka.jar
+- Stiskni Enter. Program se rozběhne, načte nastavení obchodu, vyzve tě k zadání položek, spočítá celkovou cenu a vytiskne účtenku.
